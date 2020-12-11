@@ -1,0 +1,43 @@
+/* root: /home/vbirilov/plugin */
+/* standalone/debug/index.css: begin [depth 0] */
+.cmd {
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.console {
+  position: relative;
+  padding-bottom: 25px;
+}
+.entry {
+  color: #fff;
+}
+.entry_log {
+  color: #a3dcdc;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+.page-root {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+  background: #1d100b;
+  font-size: 14px;
+}
+/* standalone/debug/index.css: end */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <link href="/standalone/settings/index.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="chrome yandex">
+        <div class="header">Настройки: Яндекс.Музыка</div>
+        <hr>
+        <div class="instruction">
+            Чтобы изменить настройки горячих клавиш:
+            <p class="instruction__item instruction__item_tab">
+                1. В адресную строку браузера введите <b id="ext-link"></b>. Откроется страница со списком расширений,
+                установленных в браузере.
+            </p>
+            <p class="instruction__item">
+                2. Прокрутите страницу вниз до конца и нажмите ссылку «Быстрые клавиши» в правом нижнем углу.
+            </p>
+            <p class="instruction__item">
+                3. В открывшемся диалоговом окне найдите группу Яндекс.Музыка и задайте нужные клавиши или их сочетания для
+                команд расширения.
+            </p>
+            <img src="/standalone/settings/hotkeys.png"/>
+        </div>
+        <div style="margin-top: 30px" class="group">
+            <a href="https://soft.yandex.ru/?from=yamusic_chrome_sett" target="_blank">Другие программы</a>
+        </div>
+        <div class="group">
+            <a href="https://feedback2.yandex.ru/music/" target="_blank">Служба поддержки</a>
+        </div>
+        <div class="group">
+            <a href="https://legal.yandex.ru/desktop_software_agreement/" target="_blank">Лицензионное соглашение</a>
+        </div>
+        <div style="font-size: 1em" class="group">
+            Яндекс.Музыка
+            <br>
+            Версия <span id="version"></span> от <span id="versionDate"></span>
+            <br>
+            © <span id="year"></span> ООО «ЯНДЕКС»
+        </div>
+        <div class="group group_hidden">
+            <a href="../debug/index.html" class="link" target="_blank">логи</a>
+        </div>
+        <script src="/standalone/settings/index.js"></script>
+    </body>
+</html>

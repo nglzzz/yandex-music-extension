@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="28"
+   height="28"
+   viewBox="0 0 28 28"
+   version="1.1"
+   id="svg3060"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="like.svg">
+  <metadata
+     id="metadata3073">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Rectangle 521</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1202"
+     inkscape:window-height="837"
+     id="namedview3071"
+     showgrid="false"
+     inkscape:zoom="12.421053"
+     inkscape:cx="9"
+     inkscape:cy="9.5"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3060" />
+  <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title3062">Rectangle 521</title>
+  <desc
+     id="desc3064">Created with Sketch.</desc>
+  <defs
+     id="defs3066" />
+  <g
+     id="Staffs"
+     sketch:type="MSPage"
+     style="fill:none;stroke:none"
+     transform="matrix(0.99797904,0,0,1,5,2)">
+    <g
+       id="Oval-93-+-Rectangle-520"
+       sketch:type="MSLayerGroup"
+       transform="translate(-14,-12)"
+       style="fill:#000000">
+      <path
+         d="M 28.356611,30.894261 C 28.254348,30.963262 28.155955,31 28.0625,31 l -7.4375,0 c -0.170106,0 -0.370592,-0.03773 -0.583724,-0.103301 l 0,0.0674 -4.547927,0 C 14.668595,30.964103 14,30.290338 14,29.463713 l 0,-5.963324 C 14,22.671747 14.669605,22 15.493349,22 l 2.517683,0 0,0 C 18.244557,20.5174 22.106069,17.258342 22,16 c 0,0 0.109375,-2.413008 0,-3 0.109375,-0.339837 -0.157757,-1 1,-1 0.86568,0 1.776113,0.666969 2,1.266667 0.569421,0.846852 1.983488,2.442149 1,5.733333 l 3,0 c 0.226765,-6.82e-4 0.440756,0.01015 0.641944,0.03196 C 29.758115,19.010963 29.877777,19 30,19 c 1.104569,0 2,0.89543 2,2 0,0.0443 -0.0014,0.08826 -0.0043,0.131835 l 0,0 c 0.0029,0.05159 0.0043,0.10395 0.0043,0.157054 0,0.283561 -0.108412,0.865951 -0.292842,1.61128 l 0,0 c 0.208144,0.315545 0.329293,0.69354 0.329293,1.099831 0,0.606145 -0.269649,1.14931 -0.695535,1.516084 C 31.745678,25.882068 32,26.411334 32,27 32,27.747074 31.590387,28.398478 30.983497,28.741878 30.994385,28.82638 31,28.912534 31,29 c 0,1.104569 -0.895431,2 -2,2 -0.225083,0 -0.441482,-0.03718 -0.643389,-0.105739 z"
+         id="Rectangle-521"
+         sketch:type="MSShapeGroup"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,99 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistence": true
+   },
+   "browser_action": {
+      "default_icon": "icons/icon.48x48.png",
+      "default_popup": "index.html",
+      "default_title": "Яндекс.Музыка"
+   },
+   "commands": {
+      "dislike": {
+         "description": "Дизлайк",
+         "global": true
+      },
+      "like": {
+         "description": "Лайк",
+         "global": true
+      },
+      "next": {
+         "description": "Вперед",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaNextTrack"
+         }
+      },
+      "play": {
+         "description": "Играть/Пауза",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaPlayPause"
+         }
+      },
+      "prev": {
+         "description": "Назад",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaPrevTrack"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "js/csUnity.js" ],
+      "matches": [ "*://music.yandex.ru/*", "*://radio.yandex.ru/*", "*://music.yandex.ua/*", "*://radio.yandex.ua/*", "*://music.yandex.kz/*", "*://radio.yandex.kz/*", "*://music.yandex.by/*", "*://radio.yandex.by/*", "*://*.totoro.yandex.ru/*", "*://*.music.yandex.ru/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "config/deezer.conf.js", "js/csController.js" ],
+      "matches": [ "*://www.deezer.com/*" ]
+   }, {
+      "js": [ "config/google.conf.js", "js/csController.js" ],
+      "matches": [ "*://play.google.com/music/*" ]
+   }, {
+      "js": [ "config/lastfm.conf.js", "js/csController.js" ],
+      "matches": [ "*://www.last.fm/*" ]
+   }, {
+      "js": [ "config/mail.conf.js", "js/csController.js" ],
+      "matches": [ "*://my.mail.ru/music/*" ]
+   }, {
+      "js": [ "config/ololo.conf.js", "js/csController.js" ],
+      "matches": [ "*://pesni.fm/*", "*://ololo.fm/*" ]
+   }, {
+      "js": [ "config/pleer.conf.js", "js/csController.js" ],
+      "matches": [ "*://pleer.com/*" ]
+   }, {
+      "js": [ "config/soundcloud.conf.js", "js/csController.js" ],
+      "matches": [ "*://soundcloud.com/*" ]
+   }, {
+      "js": [ "config/vk.conf.js", "js/csController.js" ],
+      "matches": [ "*://vk.com/*" ]
+   }, {
+      "js": [ "config/youtube.conf.js", "js/csController.js" ],
+      "matches": [ "*://www.youtube.com/*" ]
+   }, {
+      "js": [ "config/zv.conf.js", "js/csController.js" ],
+      "matches": [ "*://zv.fm/*" ]
+   }, {
+      "js": [ "config/zvooq.conf.js", "js/csController.js" ],
+      "matches": [ "*://zvooq.ru/*" ]
+   }, {
+      "js": [ "config/spotify.conf.js", "js/csController.js" ],
+      "matches": [ "*://spotify.com/*", "*://open.spotify.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://music.yandex.ru/ https://music.yandex.ru https://yastatic.net/ https://storage.mds.yandex.net/; object-src 'self' https://music.yandex.ru/ https://music.qa.yandex.ru https://storage.mds.yandex.net",
+   "description": "Пульт управления для вашей музыки",
+   "homepage_url": "https://music.yandex.ru",
+   "icons": {
+      "128": "icons/icon.128x128.png",
+      "48": "icons/icon.48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmRNR9fjBleQDekQtT7Uv0hgZHpBkaTfenNMbDQNhsNB4qrrB3TwMhwM3NzSSQe5/ZNuIauDLKuQpKSrF7apx4SFsgBGC6NEi6dzMetPnbokZAWvn9Lzwty/1Joc4DueMSySLMAy12zIMOU5X1+7peTKi2UWSQQTqrcfd8F5M7sbG3DAri+8kU42OYOigvpiJOcLqXUdhCQ+WSIkUpz/nmQjWOm4xAC0yJ5AiOM9afOPAq8xa0haCEYUh9d3WkYGZsTvHhO6Csttq9foLo43kxk7xvkAggG81c+okb+27ImfLc7wvHNdMTRYssK4y0Mb0PLgCk3Cj2cjTvRpmiwcS6QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "26",
+   "name": "Яндекс.Музыка",
+   "options_page": "standalone/settings/index.html",
+   "permissions": [ "tabs", "storage", "cookies", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.472",
+   "web_accessible_resources": [ "js/unity.js" ]
+}
